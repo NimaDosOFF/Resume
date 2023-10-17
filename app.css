@@ -1,0 +1,47 @@
+.list {
+    width: 1000px;
+    height: 1300px;
+    background: white;
+    display: grid;
+    grid-template-columns: 65% 35%;
+border: 1px solid lightgray;
+    padding: 25px;
+    font-family: Arial;
+
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    background: #F9FBFD;
+}
+.header {
+    line-height: 0.7;
+}
+
+.left-side {
+    margin-top: 10px;
+    order:0;
+}
+
+.right-side {
+position: relative;
+}
+.right-side img {
+    width: 180px;
+position: absolute;
+    right: 0;
+}
+.left-main {
+    margin-top: 50px;
+    font: 20px Arial ;
+}
+.right-main {
+    margin-top: 265px;
+    margin-left: 30px;
+    font: 20px Arial ;
+}
+.GeneralText {
+    font-size: 25px;
+    font-weight: bold;
+    color: #2079C7;
+}
