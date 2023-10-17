@@ -13,6 +13,7 @@ border: 1px solid lightgray;
     display: flex;
     justify-content: center;
     background: #F9FBFD;
+    transform: scale(80%)
 }
 .header {
     line-height: 0.7;
